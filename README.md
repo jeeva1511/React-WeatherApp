@@ -24,8 +24,11 @@ Check out the app live here: [React Weather App](https://myweatherandforecastapp
 - **WeatherAPI** - To fetch weather data from various locations
 - **Axios** - For making API requests
 
-## 🌟 Getting Started
+🤝 Support
+If you like this project, don't forget to give it a ⭐! Feel free to share your feedback or suggest improvements.
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/jeeva1511/react-weather-app.git
+💼 Connect with Me
+Let's connect on LinkedIn to network and share insights!
+
+Be sure to replace `[https://www.linkedin.com/in/your-linkedin-profile](https://www.linkedin.com/in/jeevar151118/)`
+
