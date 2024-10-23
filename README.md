@@ -30,5 +30,5 @@ If you like this project, don't forget to give it a ⭐! Feel free to share your
 💼 Connect with Me
 Let's connect on LinkedIn to network and share insights!
 
-Be sure to replace `[https://www.linkedin.com/in/your-linkedin-profile](https://www.linkedin.com/in/jeevar151118/)`
+https://www.linkedin.com/in/jeevar151118/
 
