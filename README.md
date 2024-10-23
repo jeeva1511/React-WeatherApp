@@ -14,7 +14,7 @@ Welcome to my **React Weather App**! This app provides **7-day weather forecasts
 
 ## 🔥 Live Demo
 
-Check out the app live here: [React Weather App](https://your-app-link.com)
+Check out the app live here: [React Weather App](https://myweatherandforecastapp-react.netlify.app)
 
 ## 🛠️ Technologies Used
 

@@ -17,13 +17,12 @@ function Current({ current, location }) {
               <div className="col-sm-6 d-flex justify-content-center align-items-center">
                 <img
                   src={current.condition.icon}
-                  className="img-fluid rounded-start h-50 w-7 ms-4 float-start"
+                  className="img-fluid h-50 w-7 ms-4 float-start"
                   alt="..."
                 />
               </div>
               <div className="col">
                 <div className="card-body">
-                  
                   <h4 className="card-title text-white text-center">
                     {current.condition.text}
                   </h4>
@@ -40,7 +39,7 @@ function Current({ current, location }) {
           >
             <div className="card-body">
               <div className="card-title text-white text-center">
-                <h4>Temperature in Celsius {current.temp_c}</h4>
+                <h4>Temperature in Celsius  {current.temp_c}</h4>
               </div>
             </div>
           </div>

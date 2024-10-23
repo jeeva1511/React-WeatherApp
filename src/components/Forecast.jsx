@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Forecast = ({ forecast, location }) => {
   return (
     <div className="container mt-3">
@@ -24,21 +23,27 @@ const Forecast = ({ forecast, location }) => {
                   aria-expanded="false"
                   aria-controls={`accordion-body-${index}`}
                 >
-                  <div className="row">
-                    <div className="col-xl-12">
-                      <div className="d-flex flex-row mb-3 align-items-center justify-content-center ">
-                        <div className="p-2 ms-auto">
-                          <h6>Day: {data.date}</h6>
+                  <div className="row w-100">
+                    <div className="col-12">
+                      {/* Flex container to hold the data in rows */}
+                      <div className="d-flex flex-wrap align-items-center justify-content-between">
+                        <div className="p-2">
+                          <h6 className="mb-0">Day: {data.date}</h6>
                         </div>
-                        <div className="p-2 ms-5">
-                          <img src={data.day.condition.icon} alt="Weather Icon" />
-                          <h6>{data.day.condition.text}</h6>
+                        <div className="p-2 d-flex align-items-center">
+                          <img
+                            src={data.day.condition.icon}
+                            alt="Weather Icon"
+                            style={{ width: "30px", height: "30px" }}
+                            className="me-2"
+                          />
+                          <h6 className="mb-0">{data.day.condition.text}</h6>
                         </div>
-                        <div className="p-2 ms-5">
-                          <h6>Max Temp: {data.day.maxtemp_c}°C</h6>
+                        <div className="p-2">
+                          <h6 className="mb-0">Max Temp: {data.day.maxtemp_c}°C</h6>
                         </div>
-                        <div className="p-2 ms-5">
-                          <h6>Min Wind: {data.day.maxwind_kph}kph</h6>
+                        <div className="p-2">
+                          <h6 className="mb-0">Max Wind: {data.day.maxwind_kph} kph</h6>
                         </div>
                       </div>
                     </div>
@@ -56,11 +61,11 @@ const Forecast = ({ forecast, location }) => {
                     return (
                       <div key={hourIndex}>
                         <div className="row">
-                          <div className="col-xl-12 text-center gx-1">
-                            <h6>
-                              {hourData.time} /
-                              <img src={hourData.condition.icon} alt="Hour Weather Icon" /> /
-                               {hourData.condition.text}
+                          <div className="col-12 text-center">
+                            <h6 className="mb-1">
+                              {hourData.time} / 
+                              <img src={hourData.condition.icon} alt="Hour Weather Icon" /> / 
+                              {hourData.condition.text}
                             </h6>
                           </div>
                         </div>
