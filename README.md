@@ -27,8 +27,7 @@ Check out the app live here: [React Weather App](https://myweatherandforecastapp
 🤝 Support
 If you like this project, don't forget to give it a ⭐! Feel free to share your feedback or suggest improvements.
 
-💼 Connect with Me
-Let's connect on LinkedIn to network and share insights!
+💼 Connect with Me 🙌 
 
-https://www.linkedin.com/in/jeevar151118/
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/jeeva1511) or check out my other projects on [GitHub](https://github.com/jeeva1511).
 
