@@ -2,7 +2,8 @@
 
 Welcome to my **React Weather App**! This app provides **7-day weather forecasts** with a sleek, **responsive design** built using **React**, **Bootstrap**, and **WeatherAPI**. 🌍✨
 
-![Weather App Preview](screenshot.png)
+![Weather App Preview](https://github.com/user-attachments/assets/160ccd46-99f0-4c77-b42f-fd22f6ef19ef)
+.png)
 
 ## 🚀 Features
 
