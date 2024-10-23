@@ -1,0 +1,42 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+
+body {
+  /* background-color: rgba(59, 214, 241, 0.849); */
+  background: url(../src/assets/sunset-8401670_1280.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.card {
+  background-color: rgba(73, 203, 243, 0.521);
+  
+}
+.card:hover {
+  background-color: rgba(73, 203, 243, 0.692);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.644);
+}
+.weathercontainer {
+  /* background-color: rgba(129, 168, 156, 0.445); */
+
+  background-color: #fa8bff;
+  background-image: linear-gradient(
+    45deg,
+    #fa8bff 0%,
+    #2bd2ff 52%,
+    #2bff88 90%
+  );
+}
+.selectedWeather {
+  background-color: rgba(129, 168, 156, 0.349);
+  color: beige;
+}
+.selectedWeather:hover {
+  background-color: rgba(129, 168, 156, 0.486);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.644);
+}
+
+.forecastAccordion:hover {
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.644);
+}
